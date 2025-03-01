@@ -3,137 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Raffaels Websitenarchiv</title>
+    <title>Hilfreiche Websiten</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #f5f7fb, #e0eafc);
+            background: linear-gradient(135deg, #ffbecc, #18dda2);
             color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
         }
-
         header {
-            background: #4CAF50;
-            color: white;
+            max-width: 850px;
+            background: transparent;
+            width: 100%;
             text-align: center;
-            padding: 2.5rem;
-            border-radius: 0 0 40px 40px;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin: 20px auto;
         }
-
         header h1 {
-            font-size: 2.5rem;
             margin: 0;
-            font-weight: 700;
+            font-size: 2.5rem;
+            color: #4a00e0;
         }
-
         header p {
+            margin: 10px 0 0;
             font-size: 1.2rem;
-            font-weight: 300;
-            margin-top: 0.5rem;
         }
-
         section {
-            padding: 2rem 3rem;
-            text-align: center;
-            max-width: 1200px;
-            margin: 0 auto;
+            max-width: 850px;
+            width: 100%;
+            padding: 0 30px;
+            margin: 20px auto;
         }
-
         .website {
-            background-color: white;
-            padding: 2rem;
-            margin: 1.5rem 0;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            background: transparent;
+            padding: 20px;
+            margin: 20px 0;
             transition: transform 0.3s ease-in-out;
         }
-
         .website:hover {
-            transform: translateY(-10px);
+            transform: translateY(-5px);
         }
-
         .website h2 {
-            font-size: 2rem;
-            color: #4CAF50;
-            margin-bottom: 1rem;
-            font-weight: 600;
+            margin: 0 0 10px;
+            font-size: 1.8rem;
+            color: #4a00e0;
+            border-bottom: 2px solid #4a00e0;
+            padding-bottom: 5px;
         }
-
         .website p {
-            font-size: 1.1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .website a {
-            font-size: 1.1rem;
-            color: white;
-            text-decoration: none;
-            background-color: #4CAF50;
-            padding: 12px 20px;
-            border-radius: 8px;
-            font-weight: 600;
-            transition: background-color 0.3s ease;
-        }
-
-        .website a:hover {
-            background-color: #388E3C;
-        }
-
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 1.5rem;
-            margin-top: 3rem;
             font-size: 1rem;
+            line-height: 1.6;
         }
-
-        footer a {
-            color: white;
+        .website a {
+            display: inline-block;
+            margin-top: 10px;
             text-decoration: none;
-            margin: 0 1rem;
-            font-weight: 500;
+            background: #4a00e0;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: background 0.3s ease;
         }
-
-        footer a:hover {
+        .website a:hover {
+            background: #ff7675;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+            color: #fff;
+            font-weight: bold;
+            background: transparent;
+        }
+        footer a {
+            color: #fff;
             text-decoration: underline;
         }
-
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Raffaels Websitenarchiv</h1>
-    <p>Eine Sammlung von Websites, die ich erstellt habe</p>
-</header>
-
-<section>
-    <div class="website">
-        <h2>Countdown</h2>
-        <p>Diese Website wurde erstellt, um einen Countdown zu einem bestimmten Ereignis anzuzeigen. Der Countdown zeigt in Echtzeit an, wie viele Tage, Stunden, Minuten und Sekunden noch verbleiben, bis das festgelegte Datum erreicht ist. Es ist eine einfache und praktische Möglichkeit, den Countdown bis zu einem besonderen Moment zu verfolgen und zu feiern.</p>
-        <a href="https://raffaelbauer.github.io/countdown/">Website ansehen</a>
-    </div>
-</section>
-
-<section>
-    <div class="website">
-        <h2>Happy-birthday-Mama</h2>
-        <p>Website, die ich für meine Mutter zum Geburtstag erstellt habe.</p>
-        <a href="https://raffaelbauer.github.io/Happy-bitday-Mama/">Website ansehen</a>
-    </div>
-</section>
-
-<footer>
-    <p>&copy; 2025 Raffael Bauer. Alle Rechte vorbehalten.</p>
-    <p>
-        <a href="https://raffaelbauer.github.io/Impressum/">Impressum</a> | 
-        <a href="https://raffaelbauer.github.io/Datenschutzbestimmungen/">Datenschutzbestimmungen</a>
-    </p>
-</footer>
-
+    <header>
+        <h1>Hilfreiche Websiten</h1>
+        <p>Raffael erleichtert euch mit diesen Websiten das Leben</p>
+    </header>
+    <section>
+        <div class="website">
+            <h2>Rezeptgenerator</h2>
+            <p>Gebt einfach den Titel des Rezepts, die Menge der Zutaten und die Zubereitung ein. Optional könnt ihr auch ein Bild hochladen – anschließend erstellt die Seite automatisch ein PDF mit einem leckeren Rezept.</p>
+            <a href="https://raffaelbauer.github.io/Rezeptgenerator/">Website besuchen</a>
+        </div>
+        <div class="website">
+            <h2>Countdown</h2>
+            <p>Gebt ein Datum ein und erhaltet einen einzigartigen Link, den ihr euren Freunden, Verwandten und Bekannten schicken könnt. Beim Anklicken zeigt die Seite exakt an, wie lange es noch dauert, bis das gewünschte Datum erreicht ist.</p>
+            <a href="https://raffaelbauer.github.io/countdown/">Website besuchen</a>
+        </div>
+        <div class="website">
+            <h2>HTML Viewer</h2>
+            <p>Fügt euren programmierten HTML-Code ein und seht ihn in Echtzeit dargestellt. Ihr könnt interaktiv damit umgehen, Links anklicken und vieles mehr – ideal zum Programmierenlernen und Aktualisieren eurer eigenen Webseite.</p>
+            <a href="https://raffaelbauer.github.io/html-viewer/">Website besuchen</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Raffael Bauer. Alle Rechte vorbehalten.</p>
+        <p><a href="https://raffaelbauer.github.io/Datenschutzbestimmungen/">Datenschutzbestimmungen</a></p>
+    </footer>
 </body>
 </html>
